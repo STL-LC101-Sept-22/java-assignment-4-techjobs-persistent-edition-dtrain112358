@@ -9,7 +9,7 @@ public class Employer extends AbstractEntity {
     @Size(min = 3, max = 50, message = "Location should be 3-50 Characters long")
     private String location;
 
-// TODO #1: Add public accessor methods to Employer
+
 
 
     public Employer (String location) {
